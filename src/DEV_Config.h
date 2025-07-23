@@ -32,6 +32,8 @@
 *****************************************************************************************/
 //GPIO config
 
+#define OLED_VCC_3V3_RED   "ABOVE DIN_MOSI_BLOW"
+#define OLED_GND_BLACK     "BELOW BATTERY PIN (TOP RIGHT NEXT TO USB-C)"
 #define OLED_RST_BROWN     12
 #define OLED_DC_PURPLE     13
 #define OLED_CS_ORANGE     14
